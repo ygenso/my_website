@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>polygon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script type="text/javascript" src="JavaScript/polygon_Pi.js"></script>
+    <script type="text/javascript" src="JavaScript/prime.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/botan.css">
+    <link rel="stylesheet" href="css/takakukei.css">
+    <link rel="stylesheet" href="css/table.css">
+    <style>
+        canvas{
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        input{
+            padding: 0.1em;
+        } 
+    </style>
+    
+</head>
+<body>
+    <header>
+        <div id="container">
+		  <div id="logo">
+               <a href="index.html">Go-To</a>
+           </div>
+        </div>
+    </header>
+    <div class="ashiato">
+        <ul>
+            <li><a href="index.html">ホーム</a></li>
+            <li>＞</li>
+            <li>円周率</li>
+        </ul>
+    </div>
+    <div class="peage">
+    <h1>円周率を求める<br>プログラム</h1>
+    <p>
+        <div class="saizu">
+            <label>n ＝<input type="number" id="inputs" value="6" min="3" style="height:1.3rem;  width: 15%;"></label>
+            <input type="button" value="作成" id="button" style="height:1.5rem;" onclick="myfunc()">
+        </div><br>
+        <div class="pa">
+            <label><input type="checkbox" id="check"> 描画毎に画面をクリア</label><br>
+            <button onclick="riset();" style="height:1.5rem;">すべて消す</button>
+        </div>
+    </p>
+    <table>
+        <caption><b>p < π < q</b></caption>        
+        <tr>
+            <td>
+                <p class="top1">以上 (p)</p>
+            </td>
+            <td>
+                <p id="ijou" class="top2">3.000</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>円周率 (π)</p>
+            </td>
+            <td>
+                <p>3.1415926535897932</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>以下 (q)</p>
+            </td>
+            <td>
+                <p id="ika">3.464</p>
+            </td>
+        </tr>
+    </table>
+    <p id = "msg"></p>
+    <canvas id="rectangle" width="300" height="300"></canvas>
+    </div>
+</body>
+</html>
