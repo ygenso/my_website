@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="https://ygenso.github.io/my_website/css/style.css">
     <link rel="stylesheet" href="https://ygenso.github.io/my_website/css/botan.css">
     <script>
+        function jouhou(){
+            alert("個人情報が含まれているため、利用できません。")
+        }
     </script>
     <style>
     </style>
@@ -31,7 +34,7 @@
             <p>このWebサイトは、個人的な趣味で作成しました。気が向いたら更新します。今後、いろいろなページをつくっていきます。スマホサイズに対応できるよう、改造中です。このアプリには、個人情報が含まれているため、勝手に公開しないでください。</p>
             <h3>メニュー</h3>
             <div class="botan">
-                <a href="birthday.html" class="btn btn--orange">誕生日検索</a>
+                <a onclick="jouhou();" class="btn btn--orange">誕生日検索</a>
                 <a href="memory.html" class="btn btn--orange">アルバム</a>
                 <a href="directory.html" class="btn btn--orange">名 簿</a>
                 <a href="takakukei.html" class="btn btn--orange">多角形</a>
