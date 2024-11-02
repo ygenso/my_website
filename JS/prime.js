@@ -13,16 +13,18 @@ var myfunc = function(){
         answer = 1
         divi = [2] //一つなのでpushなし
     }else{
+        alert("divi")
         for ( i = 2; i == num; i++){
+            alert("answer")
             if( num %  i == 0){
                 answer = 0
                 divi.push(i)
-                alert(divi)
+                
             }
         }
         if ( divi.length == 1){
             answer = 1
-            alert(answer)
+            
         }
     }
     //表示
