@@ -8,7 +8,7 @@ var myfunc = function(){
     //調べる
     if ( num == 1 ){
         answer = 0
-        divi = [1] //一つなのでpushなし
+        divi = [1,2] //一つなのでpushなし
     }else if ( num == 2 ){
         answer = 1
         divi = [2] //一つなのでpushなし
