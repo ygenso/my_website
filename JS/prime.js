@@ -11,7 +11,7 @@ var myfunc = function(){
         answer = true
         divi = [2] //一つなのでpushなし
     }else{
-        for ( i = 2; i = num; i++){
+        for ( i = 2; i == num; i++){
             if( num %  i == 0){
                 answer = false
                 divi.push(i)
