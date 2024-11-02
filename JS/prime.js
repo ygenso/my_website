@@ -1,4 +1,5 @@
 var myfunc = function(){
+    alert()
     let answer = false
     let divi = []
     //取得
