@@ -13,6 +13,8 @@ var myfunc = function(){
         answer = 1
         divi = [2] //一つなのでpushなし
     }else{
+        alert(divi)
+        alert(answer)
         for ( i = 2; i == num; i++){
             if( num %  i == 0){
                 answer = 0
@@ -24,8 +26,6 @@ var myfunc = function(){
         }
     }
     //表示
-    alert(divi)
-    alert(answer)
     var mydiv = document.getElementById("YNan");
     mydiv.innerHTML = answer;
     var mydiv = document.getElementById("divisor");
