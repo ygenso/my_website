@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>polygon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script type="text/javascript" src="components/JavaScript/prime.js"></script>
+    <link rel="stylesheet" href="components/css/style.css">
+    <link rel="stylesheet" href="components/css/botan.css">
+    <link rel="stylesheet" href="components/css/table.css">
+    <style>
+        input{
+            padding: 0.1em;
+        } 
+    </style>
+    
+</head>
+<body>
+    <header>
+        <div id="container">
+		  <div id="logo">
+               <a href="index.html">Go-To</a>
+           </div>
+        </div>
+    </header>
+    <div class="peage">
+    <h1>素数・約数判定<br>プログラム</h1>
+    <p>
+        <div class="saizu">
+            <label>調べる数：<input type="number" id="inputs" value="6" min="1" style="height:1.4rem;  width: 15%;"></label>
+            <input type="button" value="調べる" id="button" style="height:1.5rem;" onclick="myfunc()">
+        </div>
+    </p>
+    <table>
+        <caption><b>調査結果</b></caption>        
+        <tr>
+            <td>
+                <p class="top2">素数か</p>
+            </td>
+            <td>
+                <p id="YNan" class="top1">Yes or No</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>約数</p>
+            </td>
+            <td>
+                <p id="divisor">divisor</p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
