@@ -25,7 +25,6 @@ function draw(number) {
     }
     var cvs = canvas.getContext("2d");
     let linecolor = cvs.createLinearGradient(0, 0, 300, 300);
-
     linecolor.addColorStop(0, "#00ff00");
     linecolor.addColorStop(0.2, "#00ffff");
     linecolor.addColorStop(0.4, "#0000ff");

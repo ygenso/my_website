@@ -12,7 +12,6 @@ function buttonClick(event) {
 function read(event) {
     let inputs = document.getElementById("inputs");
     let msg = document.getElementById("msg");
-    
     let click = document.getElementById("button");
     click.addEventListener("click", buttonClick, false);
     return inputs.value;
