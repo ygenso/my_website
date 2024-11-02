@@ -22,6 +22,7 @@ var myfunc = function(){
         }
         if ( divi.length == 1){
             answer = 1
+            alert(answer)
         }
     }
     //表示
