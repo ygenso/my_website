@@ -13,14 +13,14 @@ var myfunc = function(){
         answer = 1
         divi = [2] //一つなのでpushなし
     }else{
-        alert(divi)
-        alert(answer)
         for ( i = 2; i == num; i++){
             if( num %  i == 0){
                 answer = 0
                 divi.push(i)
             }
         }
+        alert(divi)
+        alert(answer)
         if ( divi.length == 0){
             answer = 1
         }
