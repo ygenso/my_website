@@ -24,6 +24,7 @@ var myfunc = function(){
         }
     }
     //表示
+    alert(divi)
     var mydiv = document.getElementById("YNan");
     mydiv.innerHTML = answer;
     var mydiv = document.getElementById("divisor");
