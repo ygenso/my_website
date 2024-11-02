@@ -19,7 +19,7 @@ var myfunc = function(){
             }
         }
     }
-
+    alert(YNan)
     //表示
     var mydiv = document.getElementById("YNan");
     mydiv.innerHTML = answer;
