@@ -17,11 +17,10 @@ var myfunc = function(){
             if( num %  i == 0){
                 answer = 0
                 divi.push(i)
+                alert(divi)
             }
         }
-        alert(divi)
-        alert(answer)
-        if ( divi.length == 0){
+        if ( divi.length == 1){
             answer = 1
         }
     }
