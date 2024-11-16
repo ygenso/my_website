@@ -59,6 +59,7 @@
     display: flex;
     flex-wrap: wrap;
     list-style: none;
+    padding: 0%;
 }
 .breadcrumb li:not(:list-of-type)::after {
     content: ">";
