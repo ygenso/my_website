@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <title>多角形</title>
@@ -8,22 +9,24 @@
     <link rel="stylesheet" href="https://ygenso.github.io/my_website/css/style.css">
     <link rel="stylesheet" href="https://ygenso.github.io/my_website/css/botan.css">
     <link rel="stylesheet" href="https://ygenso.github.io/my_website/css/takakukei.css">
-    
+
     <style>
-        canvas{
+        canvas {
             margin: 15px 0px 20px;
         }
-        input{
+
+        input {
             padding: 0.1em;
-        } 
+        }
     </style>
 </head>
+
 <body>
     <header>
         <div id="container">
-		  <div id="logo">
-               <a href="index.html">G-T</a>
-           </div>
+            <div id="logo">
+                <a href="index.html">G-T</a>
+            </div>
         </div>
     </header>
     <nav>
@@ -33,8 +36,8 @@
         </ol>
     </nav>
     <div class="peage">
-    <h1>正n角形を描画する<br>プログラム</h1>
-    <p>
+        <h1 class="dai">正n角形を描画する<br>プログラム</h1>
+        <p>
         <div class="saizu">
             <label>n ＝<input type="number" id="inputs" min="3" value="6" style="height:1.3rem;  width: 15%;"></label>
             <input type="button" value="作成" id="button" style="height:1.5rem;">
@@ -43,9 +46,10 @@
             <label><input type="checkbox" id="check"> 描画毎に画面をクリア</label><br>
             <button onclick="riset();" style="height:1.5rem;">すべて消す</button>
         </div>
-    </p>
-    <p id = "msg"></p>
-    <canvas id="rectangle" width="305" height="305"></canvas>
+        </p>
+        <p id="msg"></p>
+        <canvas id="rectangle" width="305" height="305"></canvas>
     </div>
 </body>
+
 </html>

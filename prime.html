@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <title>素数・約数判定</title>
@@ -9,18 +10,19 @@
     <link rel="stylesheet" href="https://ygenso.github.io/my_website/botan.css">
     <link rel="stylesheet" href="https://ygenso.github.io/my_website/css/table.css">
     <style>
-        input{
+        input {
             padding: 0.1em;
-        } 
+        }
     </style>
-    
+
 </head>
+
 <body>
     <header>
         <div id="container">
-		  <div id="logo">
-               <a href="index.html">G-T</a>
-           </div>
+            <div id="logo">
+                <a href="index.html">G-T</a>
+            </div>
         </div>
     </header>
     <nav>
@@ -31,31 +33,32 @@
         </ul>
     </nav>
     <div class="peage">
-    <h1>素数・約数判定<br>プログラム</h1>
-    <p>
+        <h1 class="dai">素数・約数判定<br>プログラム</h1>
+        <p>
         <div class="saizu">
             <label>調べる数：<input type="number" id="inputs" value="6" min="1" style="height:1.4rem;  width: 15%;"></label>
             <input type="button" value="調べる" id="button" style="height:1.5rem;" onclick="myfunc()">
         </div>
-    </p>
-    <table>
-        <caption><b>調査結果</b></caption>        
-        <tr>
-            <td>
-                <p class="top1">素数</p>
-            </td>
-            <td>
-                <p id="YNan" class="top1">Yes or No</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>約数</p>
-            </td>
-            <td>
-                <p id="divisor">divisor</p>
-            </td>
-        </tr>
-    </table>
+        </p>
+        <table>
+            <caption><b>調査結果</b></caption>
+            <tr>
+                <td>
+                    <p class="top1">素数</p>
+                </td>
+                <td>
+                    <p id="YNan" class="top1">Yes or No</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>約数</p>
+                </td>
+                <td>
+                    <p id="divisor">divisor</p>
+                </td>
+            </tr>
+        </table>
 </body>
+
 </html>
