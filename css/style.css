@@ -60,7 +60,7 @@
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    float: left;
+    text-align: left;
 }
 
 .breadcrumb li:not(:list-of-type)::after {
