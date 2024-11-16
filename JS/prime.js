@@ -30,6 +30,11 @@ var myfunc = function(){
         isComposite: !isPrime,
         divisors: divisors,
     };
+    alert(num)
+    alert(isPrime)
+    alert(isComposite)
+    alert(divisors)
+
     //表示
     var mydiv = document.getElementById("YNan");
     mydiv.innerHTML = answer;
