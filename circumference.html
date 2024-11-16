@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <title>円周率を求める</title>
@@ -11,22 +12,24 @@
     <link rel="stylesheet" href="https://ygenso.github.io/my_website/css/takakukei.css">
     <link rel="stylesheet" href="https://ygenso.github.io/my_website/css/table.css">
     <style>
-        canvas{
+        canvas {
             margin-top: 30px;
             margin-bottom: 30px;
         }
-        input{
+
+        input {
             padding: 0.1em;
-        } 
+        }
     </style>
-    
+
 </head>
+
 <body>
     <header>
         <div id="container">
-		  <div id="logo">
-               <a href="index.html">G-T</a>
-           </div>
+            <div id="logo">
+                <a href="index.html">G-T</a>
+            </div>
         </div>
     </header>
     <nav>
@@ -36,8 +39,8 @@
         </ul>
     </nav>
     <div class="peage">
-    <h1>円周率を求める<br>プログラム</h1>
-    <p>
+        <h1>円周率を求める<br>プログラム</h1>
+        <p>
         <div class="saizu">
             <label>n ＝<input type="number" id="inputs" value="6" min="3" style="height:1.3rem;  width: 15%;"></label>
             <input type="button" value="作成" id="button" style="height:1.5rem;" onclick="myfunc()">
@@ -46,36 +49,38 @@
             <label><input type="checkbox" id="check"> 描画毎に画面をクリア</label><br>
             <button onclick="riset();" style="height:1.5rem;">すべて消す</button>
         </div>
-    </p>
-    <table>
-        <caption><b>p < π < q</b></caption>        
-        <tr>
-            <td>
-                <p class="top1">以上 (p)</p>
-            </td>
-            <td>
-                <p id="ijou" class="top2">3.000</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>円周率 (π)</p>
-            </td>
-            <td>
-                <p>3.1415926535897932</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>以下 (q)</p>
-            </td>
-            <td>
-                <p id="ika">3.464</p>
-            </td>
-        </tr>
-    </table>
-    <p id = "msg"></p>
-    <canvas id="rectangle" width="305" height="305"></canvas>
+        </p>
+        <table>
+            <caption><b>p < π < q</b>
+            </caption>
+            <tr>
+                <td>
+                    <p class="top1">以上 (p)</p>
+                </td>
+                <td>
+                    <p id="ijou" class="top2">3.000</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>円周率 (π)</p>
+                </td>
+                <td>
+                    <p>3.1415926535897932</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>以下 (q)</p>
+                </td>
+                <td>
+                    <p id="ika">3.464</p>
+                </td>
+            </tr>
+        </table>
+        <p id="msg"></p>
+        <canvas id="rectangle" width="305" height="305"></canvas>
     </div>
 </body>
+
 </html>
