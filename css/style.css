@@ -52,7 +52,7 @@
  }
  .navi{
     padding: 0px 0px 30px;
-    margin: 30px auto;
+    margin: 0px auto;
     width: min(90%, 600px);
  }
 .breadcrumb {
