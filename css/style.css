@@ -50,11 +50,6 @@
      color: blue;
      text-decoration: none;
  }
- .navi{
-    padding: 0px 0px;
-    margin: 0px auto;
-    width: min(90%, 600px);
- }
 .breadcrumb {
     display: flex;
     flex-wrap: wrap;
