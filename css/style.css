@@ -52,7 +52,7 @@
  }
  nav{
     width: min(90%, 600px);
-    margin: 30px auto;
+    margin:sauto;
     font-size: 90%;
  }
 .breadcrumb {
