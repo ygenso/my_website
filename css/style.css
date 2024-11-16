@@ -121,7 +121,7 @@
      width: min(90%, 600px);
      box-sizing: border-box;
      justify-content: center;
-     text-align: center;
+     text-align: left;
  }
 
  .breadcrumb li {
