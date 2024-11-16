@@ -1,18 +1,25 @@
 
-
+body {
+    background-color: #ddecf6;
+    color : rgb(0, 0, 0);
+    text-align : center;
+}
+header {
+    background: white;
+    width: 100%;
+    height:90px;
+    border-top: 5px solid #fff;
+    font-family: Arial;
+}
 .pa {
     font-size:120%;
     color: #000;
     margin: 5px;
-    text-align: center;
-
 }
 h1{
     font-size:230%;
     margin-top:30px;
     color: #000;
-    text-align: center;
-
 }
 .saizu {
     font-size:150%;
@@ -21,6 +28,3 @@ h1{
     padding: 0px;
     text-align: center;
 }
-
-
-
