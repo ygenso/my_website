@@ -51,9 +51,10 @@
      text-decoration: none;
  }
  nav{
-    width: min(90%, 600px);
-    margin:sauto;
     font-size: 90%;
+    padding: 0px 0px 30px;
+    margin: 30px auto;
+    width: min(90%, 600px);
     
  }
 .breadcrumb {
