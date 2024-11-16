@@ -54,6 +54,7 @@
     width: min(90%, 600px);
     margin:sauto;
     font-size: 90%;
+    float: left;
  }
 .breadcrumb {
     display: flex;
