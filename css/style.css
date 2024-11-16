@@ -50,16 +50,23 @@
      color: blue;
      text-decoration: none;
  }
+ nav{
+    width: min(90%, 600px);
+    margin: 0px auto 40px;
+    font-size: 90%;
+ }
 .breadcrumb {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
+    list-style-type: none;
 }
 
 .breadcrumb li:not(:list-of-type)::after {
     content: ">";
     margin: 0.6em;
     color: #777;
+    float: left;
 }
 
  .gazou {
