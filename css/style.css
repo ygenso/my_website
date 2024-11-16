@@ -54,6 +54,7 @@
     padding: 0px;
     margin: 10px auto;
     width: min(90%, 600px);
+    color: blue;
  }
 .breadcrumb {
     display: flex;
