@@ -60,10 +60,9 @@
     flex-wrap: wrap;
     list-style: none;
 }
-
 .breadcrumb li:not(:list-of-type)::after {
     content: ">";
-    margin: 0.6em;
+    margin: 0px 0.6em;
     color: #777;
 }
 
