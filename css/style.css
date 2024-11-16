@@ -114,12 +114,13 @@
      display: flex;
      list-style: none;
      padding: 10px 5%;
-     margin: 0;
+     margin: 0 auto;
      background-color: #f9f9f9;
      border-bottom: 1px solid #ccc;
      font-size: 14px;
      width: min(90%, 600px);
      box-sizing: border-box;
+     justify-content: center;
  }
 
  .breadcrumb li {
