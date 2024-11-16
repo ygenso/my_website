@@ -108,14 +108,14 @@
  button {
      font-family: sans-serif;
  }
- 
+
  /*パンくずリスト*/
  .breadcrumb {
      display: flex;
      list-style: none;
      padding: 0px;
-     margin: 0 auto;
-     background-color: #ddecf6;
+     margin: 5 auto 0;
+     background-color: #e6f1f8;
      border-bottom: 1px solid #ddecf6;
      font-size: 14px;
      width: min(90%, 600px);
