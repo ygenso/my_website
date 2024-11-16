@@ -50,12 +50,6 @@
      color: blue;
      text-decoration: none;
  }
- nav{
-    font-size: 90%;
-    padding: 0px 0px 30px;
-    margin: 30px 1px;
-    
- }
 .breadcrumb {
     display: flex;
     flex-wrap: wrap;
