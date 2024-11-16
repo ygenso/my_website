@@ -73,7 +73,7 @@
  .peage {
      border: 4px #e3f4ff solid;
      padding: 0px 0px 30px;
-     margin: 30px auto;
+     margin: 5px auto 30px;
      width: min(90%, 600px);
  }
 
@@ -115,7 +115,7 @@
      list-style: none;
      padding: 10px 0px;
      margin: 0 auto;
-     background-color: #f9f9f9;
+     background-color: #e3f4ff;
      border-bottom: 1px solid #e3f4ff;
      font-size: 14px;
      width: min(90%, 600px);
