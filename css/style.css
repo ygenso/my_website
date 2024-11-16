@@ -50,16 +50,7 @@
      color: blue;
      text-decoration: none;
  }
-.breadcrumb {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-}
-.breadcrumb li:not(:list-of-type)::after {
-    content: ">";
-    margin: 0px 0.6em;
-    color: #777;
-}
+
  .gazou {
      text-align: center;
  }
@@ -117,3 +108,31 @@
  button {
      font-family: sans-serif;
  }
+
+ .breadcrumb {
+    display: flex;
+    list-style: none;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.breadcrumb li {
+    margin: 0 5px;
+}
+
+.breadcrumb li a {
+    text-decoration: none;
+    color: #0073e6;
+}
+
+.breadcrumb li a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb li:not(:last-child)::after {
+    content: ">";
+    margin: 0 5px;
+    color: #777;
+}
