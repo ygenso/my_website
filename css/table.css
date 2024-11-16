@@ -17,5 +17,10 @@ table, tr, td{
 td {
     text-align: center;
     height: 40px;
-    width: 20%;
+}
+.td1 {
+    width: 200px;
+}
+.td2 {
+    width: 400px;
 }
