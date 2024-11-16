@@ -52,7 +52,7 @@
  }
  nav{
     width: min(90%, 600px);
-    margin: 0px auto 40px;
+    margin: 30px auto;
     font-size: 90%;
  }
 .breadcrumb {
@@ -65,7 +65,6 @@
     content: ">";
     margin: 0.6em;
     color: #777;
-    float: left;
 }
 
  .gazou {
