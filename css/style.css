@@ -113,10 +113,10 @@
  .breadcrumb {
      display: flex;
      list-style: none;
-     padding: 10px 0px;
+     padding: 2.5px 0px;
      margin: 0 auto;
-     background-color: #e3f4ff;
-     border-bottom: 1px solid #e3f4ff;
+     background-color: #ddecf6;
+     border-bottom: 1px solid #ddecf6;
      font-size: 14px;
      width: min(90%, 600px);
      box-sizing: border-box;
