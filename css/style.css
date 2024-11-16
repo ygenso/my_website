@@ -60,14 +60,12 @@
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    text-align: left;
 }
 
 .breadcrumb li:not(:list-of-type)::after {
     content: ">";
     margin: 0.6em;
     color: #777;
-    text-align: left;
 }
 
  .gazou {
