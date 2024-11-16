@@ -50,13 +50,15 @@
      color: blue;
      text-decoration: none;
  }
+ .navi{
+    padding: 0px 0px 30px;
+    margin: 30px auto;
+    width: min(90%, 600px);
+ }
 .breadcrumb {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    padding: 0px 0px 30px;
-    margin: 30px auto;
-    width: min(90%, 600px);
 }
 
 .breadcrumb li:not(:list-of-type)::after {
