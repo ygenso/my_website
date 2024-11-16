@@ -34,10 +34,7 @@ var myfunc = function () {
     const number = document.getElementById("inputs").value;
     alert(number);
     const result = checkPrimeAndDivisors(number);
-    alert('Number: ${result.number}');
-    alert('Is Prime: ${result.isPrime}');
-    alert('Is Composite: ${result.isComposite}');
-    alert('Divisors: ${result.divisors.join(', ')}');
+    alert(result);
     //表示
     //var mydiv = document.getElementById("YNan");
     //mydiv.innerHTML = answer;
