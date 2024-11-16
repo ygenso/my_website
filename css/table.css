@@ -17,4 +17,5 @@ table, tr, td{
 td {
     text-align: center;
     height: 40px;
+    width: 20%;
 }
