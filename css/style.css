@@ -60,12 +60,13 @@
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    padding: 0%;
+    padding: 0px 0px 0px;
     margin: 0px;
 }
 .breadcrumb li:not(:list-of-type)::after {
     content: ">";
     margin: 0px 0.6em;
+    padding: 0px;
     color: #777;
 }
 .breadcrumb a{
