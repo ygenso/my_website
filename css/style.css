@@ -74,7 +74,7 @@
      border: 4px #e3f4ff solid;
      padding: 0px 0px 30px;
      margin: 5px auto 30px;
-     width: min(90%, 600px);
+     width: min(90%, 700px);
  }
 
  .peage img {
@@ -118,7 +118,7 @@
      background-color: #ddecf6;
      border-bottom: 1px solid #ddecf6;
      font-size: 15px;
-     width: min(90%, 600px);
+     width: min(90%, 700px);
      box-sizing: border-box;
      justify-content: left;
  }
