@@ -12,11 +12,15 @@ table caption{
     font-size: 120%;
     margin-bottom: 3px;
 }
+table th{
+    border: 1px #000 solid;
+}
 table td{
     color: black;
     border: 1px #000 solid;
     text-align: center;
     height: 40px;
+    font-size: 110%;
 }
 table td:first-child {
     width: 40%;
@@ -34,7 +38,7 @@ table tr td button{
     width: 80%;
 }
 #myButton {
-    font-size: 75%;
+    font-size: 80%;
     margin: 5px 0;
     padding: 2px 0;
 }
