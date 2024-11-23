@@ -1,0 +1,28 @@
+/* This is a CSS file */
+
+table{
+    border:1px #000 solid;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+    width: 80%;
+}
+table caption{
+    font-size: 120%;
+    margin-bottom: 3px;
+}
+table td{
+    color: black;
+    border: 1px #000 solid;
+    text-align: center;
+    height: 40px;
+}
+table td:first-child {
+    width: 33.33%;
+}
+table td:second-child {
+    width: 33.33%;
+}
+table td:last-child{
+    width: 33.33%;
+}
