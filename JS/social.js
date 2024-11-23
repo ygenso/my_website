@@ -182,266 +182,107 @@ function b1185() {
     g11852.textContent = o1185;
     y1185.textContent = n1185;
 };
-function b603() {
-    const y603 = document.getElementById("y603");
-    const g603 = document.getElementById("g603");
+function b1221() {
+    const y1221 = document.getElementById("y1221");
+    const g1221 = document.getElementById("g1221");
 
-    const m603 = "群れを身分で仕分け";
-    const n603 = "603";
-    g603.textContent = m603;
-    y603.textContent = n603;
+    const m1221 = "人に不意打ち承久の乱";
+    const n1221 = "1221";
+    g1221.textContent = m1221;
+    y1221.textContent = n1221;
 };
-function b603() {
-    const y603 = document.getElementById("y603");
-    const g603 = document.getElementById("g603");
+function b1232() {
+    const y1232 = document.getElementById("y1232");
+    const g1232 = document.getElementById("g1232");
 
-    const m603 = "群れを身分で仕分け";
-    const n603 = "603";
-    g603.textContent = m603;
-    y603.textContent = n603;
+    const m1232 = "いつ身につくの、御成敗式目";
+    const n1232 = "1232";
+    g1232.textContent = m1232;
+    y1232.textContent = n1232;
 };
-function b603() {
-    const y603 = document.getElementById("y603");
-    const g603 = document.getElementById("g603");
+function b1274() {
+    const y1274 = document.getElementById("y1274");
+    const g1274 = document.getElementById("g1274");
+    const y1281 = document.getElementById("y1281");
 
-    const m603 = "群れを身分で仕分け";
-    const n603 = "603";
-    g603.textContent = m603;
-    y603.textContent = n603;
+    const m1274 = "悲痛な芝居、元寇";
+    const n1274 = "1274";
+    const n1281 = "1281";
+    g1274.textContent = m1274;
+    y1274.textContent = n1274;
+    y1281.textContent = n1281;
 };
-function b603() {
-    const y603 = document.getElementById("y603");
-    const g603 = document.getElementById("g603");
+function b1333() {
+    const y1333 = document.getElementById("y1333");
+    const g1333 = document.getElementById("g1333");
 
-    const m603 = "群れを身分で仕分け";
-    const n603 = "603";
-    g603.textContent = m603;
-    y603.textContent = n603;
+    const m1333 = "遺産さんざん、鎌倉幕府";
+    const n1333 = "1333";
+    g1333.textContent = m1333;
+    y1333.textContent = n1333;
 };
-function b603() {
-    const y603 = document.getElementById("y603");
-    const g603 = document.getElementById("g603");
+function b1336() {
+    const y1336 = document.getElementById("y1336");
+    const g1336 = document.getElementById("g1336");
 
-    const m603 = "群れを身分で仕分け";
-    const n603 = "603";
-    g603.textContent = m603;
-    y603.textContent = n603;
+    const m1336 = "いざ見ろ分裂、南北朝";
+    const n1336 = "1336";
+    g1336.textContent = m1336;
+    y1336.textContent = n1336;
 };
-function b603() {
-    const y603 = document.getElementById("y603");
-    const g603 = document.getElementById("g603");
+function b1338() {
+    const y1338 = document.getElementById("y1338");
+    const g1338 = document.getElementById("g1338");
 
-    const m603 = "群れを身分で仕分け";
-    const n603 = "603";
-    g603.textContent = m603;
-    y603.textContent = n603;
+    const m1338 = "いざ都入り、足利尊氏";
+    const n1338 = "1338";
+    g1338.textContent = m1338;
+    y1338.textContent = n1338;
 };
-function b603() {
-    const y603 = document.getElementById("y603");
-    const g603 = document.getElementById("g603");
+function b1392() {
+    const y1392 = document.getElementById("y1392");
+    const g1392 = document.getElementById("g1392");
 
-    const m603 = "群れを身分で仕分け";
-    const n603 = "603";
-    g603.textContent = m603;
-    y603.textContent = n603;
+    const m1392 = "いざ国まとまる、南北朝";
+    const n1392 = "1392";
+    g1392.textContent = m1392;
+    y1392.textContent = n1392;
 };
-function b603() {
-    const y603 = document.getElementById("y603");
-    const g603 = document.getElementById("g603");
+function b1467() {
+    const y1467 = document.getElementById("y1467");
+    const g1467 = document.getElementById("g1467");
 
-    const m603 = "群れを身分で仕分け";
-    const n603 = "603";
-    g603.textContent = m603;
-    y603.textContent = n603;
+    const m1467 = "人よむなしい、応仁の乱";
+    const n1467 = "1467";
+    g1467.textContent = m1467;
+    y1467.textContent = n1467;
 };
-function b603() {
-    const y603 = document.getElementById("y603");
-    const g603 = document.getElementById("g603");
+function b1543() {
+    const y1543 = document.getElementById("y1543");
+    const g1543 = document.getElementById("g1543");
 
-    const m603 = "群れを身分で仕分け";
-    const n603 = "603";
-    g603.textContent = m603;
-    y603.textContent = n603;
+    const m1543 = "以後予算増える、鉄砲伝来";
+    const n1543 = "1543";
+    g1543.textContent = m1543;
+    y1543.textContent = n1543;
 };
-function b603() {
-    const y603 = document.getElementById("y603");
-    const g603 = document.getElementById("g603");
+function b1549() {
+    const y1549 = document.getElementById("y1549");
+    const g1549 = document.getElementById("g1549");
 
-    const m603 = "群れを身分で仕分け";
-    const n603 = "603";
-    g603.textContent = m603;
-    y603.textContent = n603;
+    const m1549 = "以後よく広まるキリスト教";
+    const n1549 = "1549";
+    g1549.textContent = m1549;
+    y1549.textContent = n1549;
 };
-function b603() {
-    const y603 = document.getElementById("y603");
-    const g603 = document.getElementById("g603");
+function b1560() {
+    const y1560 = document.getElementById("y1560");
+    const g1560 = document.getElementById("g1560");
 
-    const m603 = "群れを身分で仕分け";
-    const n603 = "603";
-    g603.textContent = m603;
-    y603.textContent = n603;
-};
-function b603() {
-    const y603 = document.getElementById("y603");
-    const g603 = document.getElementById("g603");
-
-    const m603 = "群れを身分で仕分け";
-    const n603 = "603";
-    g603.textContent = m603;
-    y603.textContent = n603;
-};
-function b603() {
-    const y603 = document.getElementById("y603");
-    const g603 = document.getElementById("g603");
-
-    const m603 = "群れを身分で仕分け";
-    const n603 = "603";
-    g603.textContent = m603;
-    y603.textContent = n603;
-};
-function b603() {
-    const y603 = document.getElementById("y603");
-    const g603 = document.getElementById("g603");
-
-    const m603 = "群れを身分で仕分け";
-    const n603 = "603";
-    g603.textContent = m603;
-    y603.textContent = n603;
-};
-function b603() {
-    const y603 = document.getElementById("y603");
-    const g603 = document.getElementById("g603");
-
-    const m603 = "群れを身分で仕分け";
-    const n603 = "603";
-    g603.textContent = m603;
-    y603.textContent = n603;
-};
-function b603() {
-    const y603 = document.getElementById("y603");
-    const g603 = document.getElementById("g603");
-
-    const m603 = "群れを身分で仕分け";
-    const n603 = "603";
-    g603.textContent = m603;
-    y603.textContent = n603;
-};
-function b603() {
-    const y603 = document.getElementById("y603");
-    const g603 = document.getElementById("g603");
-
-    const m603 = "群れを身分で仕分け";
-    const n603 = "603";
-    g603.textContent = m603;
-    y603.textContent = n603;
-};
-function b603() {
-    const y603 = document.getElementById("y603");
-    const g603 = document.getElementById("g603");
-
-    const m603 = "群れを身分で仕分け";
-    const n603 = "603";
-    g603.textContent = m603;
-    y603.textContent = n603;
-};
-function b603() {
-    const y603 = document.getElementById("y603");
-    const g603 = document.getElementById("g603");
-
-    const m603 = "群れを身分で仕分け";
-    const n603 = "603";
-    g603.textContent = m603;
-    y603.textContent = n603;
-};
-function b603() {
-    const y603 = document.getElementById("y603");
-    const g603 = document.getElementById("g603");
-
-    const m603 = "群れを身分で仕分け";
-    const n603 = "603";
-    g603.textContent = m603;
-    y603.textContent = n603;
-};
-function b603() {
-    const y603 = document.getElementById("y603");
-    const g603 = document.getElementById("g603");
-
-    const m603 = "群れを身分で仕分け";
-    const n603 = "603";
-    g603.textContent = m603;
-    y603.textContent = n603;
-};
-function b603() {
-    const y603 = document.getElementById("y603");
-    const g603 = document.getElementById("g603");
-
-    const m603 = "群れを身分で仕分け";
-    const n603 = "603";
-    g603.textContent = m603;
-    y603.textContent = n603;
-};
-function b603() {
-    const y603 = document.getElementById("y603");
-    const g603 = document.getElementById("g603");
-
-    const m603 = "群れを身分で仕分け";
-    const n603 = "603";
-    g603.textContent = m603;
-    y603.textContent = n603;
-};
-function b603() {
-    const y603 = document.getElementById("y603");
-    const g603 = document.getElementById("g603");
-
-    const m603 = "群れを身分で仕分け";
-    const n603 = "603";
-    g603.textContent = m603;
-    y603.textContent = n603;
-};
-function b603() {
-    const y603 = document.getElementById("y603");
-    const g603 = document.getElementById("g603");
-
-    const m603 = "群れを身分で仕分け";
-    const n603 = "603";
-    g603.textContent = m603;
-    y603.textContent = n603;
-};
-function b603() {
-    const y603 = document.getElementById("y603");
-    const g603 = document.getElementById("g603");
-
-    const m603 = "群れを身分で仕分け";
-    const n603 = "603";
-    g603.textContent = m603;
-    y603.textContent = n603;
-};
-function b603() {
-    const y603 = document.getElementById("y603");
-    const g603 = document.getElementById("g603");
-
-    const m603 = "群れを身分で仕分け";
-    const n603 = "603";
-    g603.textContent = m603;
-    y603.textContent = n603;
-};
-function b603() {
-    const y603 = document.getElementById("y603");
-    const g603 = document.getElementById("g603");
-
-    const m603 = "群れを身分で仕分け";
-    const n603 = "603";
-    g603.textContent = m603;
-    y603.textContent = n603;
-};
-function b603() {
-    const y603 = document.getElementById("y603");
-    const g603 = document.getElementById("g603");
-
-    const m603 = "群れを身分で仕分け";
-    const n603 = "603";
-    g603.textContent = m603;
-    y603.textContent = n603;
+    const m1560 = "今川いちころ、桶狭間";
+    const n1560 = "1560";
+    g1560.textContent = m1560;
+    y1560.textContent = n1560;
 };
 function b603() {
     const y603 = document.getElementById("y603");
