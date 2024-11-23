@@ -1,22 +1,9 @@
-//bph
-const y538 = document.getElementById("y538");
-const b538 = document.getElementById("b538");
-const o538 = document.getElementById("o538");
+function b538() {
+    const y538 = document.getElementById("y538");
+    const g538 = document.getElementById("g538");
 
-b538.addEventListener("click", () => {
-    const message1 = "ご参拝しなさい";
-    const message2 = "538";
-    y538.textContent = message2;
-    o538.textContent = message1;
-});
-
-const button = document.getElementById("myButton");
-const output = document.getElementById("output");
-const outputw = document.getElementById("outputw")
-
-button.addEventListener("click", () => {
-    const message = "ご参拝しなさい";
-    output.textContent = message;
-    const messagew = "こんにちは";
-    outputw.textContent = messagew;
-});
+    const m538 = "ご参拝しなさい";
+    const n538 = "538";
+    g538.textContent = m538;
+    y538.textContent = n538;
+};

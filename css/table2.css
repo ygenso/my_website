@@ -38,7 +38,7 @@ table td:last-child{
     font-size: 0.7em;
 
 }
-table tr td button{
+table tr td input{
     width: 80%;
 
 }
