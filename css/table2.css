@@ -19,7 +19,7 @@ table td{
     color: black;
     border: 1px #000 solid;
     text-align: center;
-    height: 60px;
+    height: 65px;
     font-size: 110%;
     text-wrap: balance;
 
@@ -41,8 +41,4 @@ table td:last-child{
 table tr td button{
     width: 80%;
 
-}
-#s5380 {
-    margin: 5px 0;
-    padding: 2px 0;
 }
