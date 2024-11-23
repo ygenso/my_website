@@ -18,11 +18,14 @@ table td{
     height: 40px;
 }
 table td:first-child {
-    width: 33.33%;
+    width: 45%;
 }
 table td:second-child {
-    width: 33.33%;
+    width: 10%;
+}
+table td:third-child {
+    width: 35;
 }
 table td:last-child{
-    width: 33.33%;
+    width: 10%;
 }
