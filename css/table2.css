@@ -21,11 +21,11 @@ table td:first-child {
     width: 45%;
 }
 table td:second-child {
-    width: 10%;
+    width: 0%;
 }
 table td:third-child {
     width: 35;
 }
 table td:last-child{
-    width: 10%;
+    width: 0%;
 }
