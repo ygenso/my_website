@@ -6,6 +6,7 @@
     <title>社会科</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/table2.css">
+    <script type="text/javascript" src="JS/social.js"></script>
 
 </head>
 
@@ -17,6 +18,12 @@
             </div>
         </div>
     </header>
+    <nav>
+        <ul class="breadcrumb">
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="social_studies.html">語呂覚え</a></li>
+        </ul>
+    </nav>
     <div class="peage">
         <div class="dai">
             <h1>社会科</h1>
@@ -35,6 +42,31 @@
                     </th>
                     <th>
                     </th>
+                </tr>
+                <tr>
+                    <td>
+                        <div id="o538"></div>
+                        <!--o=output b=button-->
+                    </td>
+                    <td>
+                        <p>538</p>
+                    </td>
+                    <td>
+                        <p>百済から日本に仏教が公式に伝来する</p>
+                    </td>
+                    <td>
+                        <button id="s538">表示する</button>
+
+                        <script>
+                            const b538 = document.getElementById("s538");
+                            const p538 = document.getElementById("o538");
+
+                            b538.addEventListener("click", () => {
+                                const message = "ご参拝しなさい";
+                                o538.textContent = message;
+                            });
+                        </script>
+                    </td>
                 </tr>
                 <tr>
                     <td>
