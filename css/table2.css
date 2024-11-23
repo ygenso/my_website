@@ -20,7 +20,7 @@ table td{
     border: 1px #000 solid;
     text-align: center;
     height: 65px;
-    font-size: 110%;
+    font-size: 1.0em;
     text-wrap: balance;
 
 }

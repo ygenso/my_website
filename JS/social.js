@@ -54,7 +54,7 @@ function b645() {
 };
 function b663() {
     const y663 = document.getElementById("y663");
-    const g663 = document.getElementById("g603");
+    const g663 = document.getElementById("g663");
 
     const m663 = "無、無残に唐・新羅に敗退";
     const n663 = "663";
@@ -93,7 +93,7 @@ function b743() {
     const y743 = document.getElementById("y743");
     const g743 = document.getElementById("g743");
 
-    const m743 = "期限は無しさ、墾田永年私財法";
+    const m743 = "公地は無しさ、墾田永年私財法";
     const n743 = "743";
     g743.textContent = m743;
     y743.textContent = n743;
@@ -107,14 +107,32 @@ function b794() {
     g794.textContent = m794;
     y794.textContent = n794;
 };
+function b801() {
+    const y801 = document.getElementById("y801");
+    const g801 = document.getElementById("g801");
+
+    const m801 = "晴れて始める蝦夷討伐";
+    const n801 = "801";
+    g801.textContent = m801;
+    y801.textContent = n801;
+}
 function b894() {
     const y894 = document.getElementById("y894");
     const g894 = document.getElementById("g894");
 
-    const m894 = "遣唐使の廃止";
+    const m894 = "白紙に戻そう遣唐使";
     const n894 = "894";
     g894.textContent = m894;
     y894.textContent = n894;
+};
+function b939() {
+    const y939 = document.getElementById("y939");
+    const g939 = document.getElementById("g939");
+
+    const m939 = "くさくなる平将門";
+    const n939 = "939";
+    g939.textContent = m939;
+    y939.textContent = n939;
 };
 function b1016() {
     const y1016 = document.getElementById("y1016");
@@ -134,32 +152,35 @@ function b1086() {
     g1086.textContent = m1086;
     y1086.textContent = n1086;
 };
-function b603() {
-    const y603 = document.getElementById("y603");
-    const g603 = document.getElementById("g603");
+function b1156() {
+    const y1156 = document.getElementById("y1156");
+    const g1156 = document.getElementById("g1156");
 
-    const m603 = "群れを身分で仕分け";
-    const n603 = "603";
-    g603.textContent = m603;
-    y603.textContent = n603;
+    const m1156 = "いいころ争う保元の乱";
+    const n1156 = "1156";
+    g1156.textContent = m1156;
+    y1156.textContent = n1156;
 };
-function b603() {
-    const y603 = document.getElementById("y603");
-    const g603 = document.getElementById("g603");
+function b1159() {
+    const y1159 = document.getElementById("y1159");
+    const g1159 = document.getElementById("g1159");
 
-    const m603 = "群れを身分で仕分け";
-    const n603 = "603";
-    g603.textContent = m603;
-    y603.textContent = n603;
+    const m1159 = "人々ご苦労、平治の乱";
+    const n1159 = "1159";
+    g1159.textContent = m1159;
+    y1159.textContent = n1159;
 };
-function b603() {
-    const y603 = document.getElementById("y603");
-    const g603 = document.getElementById("g603");
+function b1185() {
+    const y1185 = document.getElementById("y1185");
+    const g1185 = document.getElementById("g1185");
+    const g11852 = document.getElementById("g11852")
 
-    const m603 = "群れを身分で仕分け";
-    const n603 = "603";
-    g603.textContent = m603;
-    y603.textContent = n603;
+    const m1185 = "いいわこ(5)の味、壇之浦";
+    const o1185 = "いい箱作ろう、鎌倉幕府";
+    const n1185 = "1185";
+    g1185.textContent = m1185;
+    g11852.textContent = o1185;
+    y1185.textContent = n1185;
 };
 function b603() {
     const y603 = document.getElementById("y603");
