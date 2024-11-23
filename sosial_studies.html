@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>社会科</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script src="components/loader.js"></script>
+    <script src="components/birthday.js"></script>
+    <script src="pass.js"></script>
+    <link rel="stylesheet" href="components/css/loader.css">
+    <link rel="stylesheet" href="components/css/style.css">
+    <link rel="stylesheet" href="components/css/botan.css">
+</head>
+
+<body>
+    <header>
+        <div id="container">
+            <div id="logo">
+                <a href="index.html">G-T</a>
+            </div>
+        </div>
+    </header>
+    <div class="peage">
+        <div class="dai">
+            <h1>社会科</h1>
+        </div>
+        <div class="naiyou">
+            <table>
+                <tr>
+                    <td>
+                        <p>語呂合わせ</p>
+                    </td>
+                    <td>
+                        <p>年</p>
+                    </td>
+                    <td>
+                        <p>出来事</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button id="myButton">クリック</button>
+                        <div id="output"></div>
+
+                        <script>
+                            const button = document.getElementById("myButton");
+                            const output = document.getElementById("output")
+
+                            button.addEventListener("click", () => {
+                                const message = "ボタンが押された";
+                                output.textContent = message;
+                            });
+                        </script>
+                    </td>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
