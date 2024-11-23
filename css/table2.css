@@ -2,10 +2,10 @@
 
 table{
     border:1px #000 solid;
-    margin: 20px auto;
+    margin: 0px auto;
     border-collapse: collapse;
     text-align: center;
-    width: 80%;
+    width: 100%;
 }
 table caption{
     font-size: 120%;
@@ -28,4 +28,7 @@ table td:third-child {
 }
 table td:last-child{
     width: 0%;
+}
+table button{
+    font-size: 20%;
 }
