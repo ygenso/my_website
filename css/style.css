@@ -70,22 +70,42 @@
      text-wrap: balance;
  }
 
- .peage {
-     border: 4px #e3f4ff solid;
-     padding: 0px 0px 30px;
-     margin: 5px auto 30px;
-     width: min(90%, 700px);
- }
+
+ @media screen and (max-width: 860px) {
+    /* ここに横幅が767px以下の時に発動するスタイルを記述 */
+    .peage {
+        border: 0px #e3f4ff solid;
+        padding: 0px 0px 30px;
+        margin: 5px auto 30px;
+        width: min(90%, 700px);
+    }
+    .naiyou {
+        font-size: 120%;
+        margin: 10px 3% 10px;
+        padding: 0px;
+    }
+    }
+    
+    @media screen and (min-width: 860px) {
+    /* ここに横幅が767pxより大きい時に発動するスタイルを記述 */
+    .peage {
+        border: 4px #e3f4ff solid;
+        padding: 0px 0px 30px;
+        margin: 5px auto 30px;
+        width: min(90%, 700px);
+    }
+    .naiyou {
+        font-size: 120%;
+        margin: 10px 5% 10px;
+        padding: 0px;
+    }
+    }
 
  .peage img {
      text-align: center;
  }
 
- .naiyou {
-     font-size: 120%;
-     margin: 10px 5% 10px;
-     padding: 0px;
- }
+
 
  .naiyou button {
      font-size: 130%;
