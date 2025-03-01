@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>素数・約数判定</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script type="text/javascript" src="https://ygenso.github.io/my_website/JS/prime.js"></script>
+    <link rel="stylesheet" href="https://ygenso.github.io/my_website/css/style.css">
+    <link rel="stylesheet" href="https://ygenso.github.io/my_website/css/takakukei.css">
+    <link rel="stylesheet" href="https://ygenso.github.io/my_website/css/table1.css">
+    <style>
+        .dai {
+            font-size: 200%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="container">
+            <div id="logo">
+                <a href="index.html">G-T</a>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <ul class="breadcrumb">
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="prime.html">酸化比率</a></li>
+        </ul>
+    </nav>
+    <div class="peage">
+        <h1>参加比率</h1>
+        <h3>銅</h3>
+        <p>
+            <label><input type="checkbox" id="select1">銅の質量から求める</label>
+            <label><input type="checkbox" id="select2">酸素の質量から求める</label>
+        </p>
+        <h3>マグネシウム</h3>
+        <p>
+        <div class="saizu">
+            <label>調べる数：<input type="number" id="inputs" value="6" min="1" style="height:1.4rem;  width: 15%;"></label>
+            <input type="button" value="調べる" id="button" style="height:1.5rem;" onclick="myfunc()">
+        </div>
+        </p>
+        <table>
+            <caption><b>調査結果</b></caption>
+            <tr>
+                <td>
+                    <p>調べた数</p>
+                </td>
+                <td>
+                    <p id="numb">0</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>素因数分解</p>
+                </td>
+                <td>
+                    <p id="factorization">0</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>素数</p>
+                </td>
+                <td>
+                    <p id="YNan">Yes or No</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>約数</p>
+                </td>
+                <td>
+                    <p id="divisor">divisor</p>
+                </td>
+            </tr>
+        </table>
+</body>
+
+</html>
