@@ -1,15 +1,10 @@
 function CuOm() {
+    alert();
     // ラジオボタンの選択値を取得
-    let elements = document.getElementsByName("Cu_select");
-    let len = elements.length;
-    let checkValue = "";
-
-    for (let i = 0; i < len; i++) {
-        if (elements.item(i).checked) {
-            checkValue = elements.item(i).value;
-        }
-    }
-    alert(checkValue);
+    let elements = document.getElementsById("Cu_select");
+    alert(elements);
+    alert(elements.length);
+    alert(elements.value);
 
     // テキストボックスの値を取得
     let CuO = document.getElementById("CuO").value;
