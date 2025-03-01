@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>果物セレクタ</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #4CAF50;
+            text-align: center;
+        }
+        select {
+            width: 100%;
+            padding: 10px;
+            margin: 15px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            display: block;
+            margin: 0 auto;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>果物セレクタ</h1>
+        
+        <label for="fruitSelect">果物を選択してください：</label>
+        <select id="fruitSelect">
+            <option value="リンゴ">リンゴ</option>
+            <option value="バナナ">バナナ</option>
+            <option value="オレンジ">オレンジ</option>
+            <option value="イチゴ">イチゴ</option>
+            <option value="ブドウ">ブドウ</option>
+            <option value="パイナップル">パイナップル</option>
+            <option value="マンゴー">マンゴー</option>
+            <option value="スイカ">スイカ</option>
+            <option value="メロン">メロン</option>
+            <option value="キウイ">キウイ</option>
+        </select>
+        
+        <button id="showFruit">選択した果物を表示</button>
+    </div>
+
+    <script>
+        document.getElementById('showFruit').addEventListener('click', function() {
+            // セレクトボックスから選択された果物を取得
+            const selectedFruit = document.getElementById('fruitSelect').value;
+            
+            // アラートで選択された果物を表示
+            alert('選択された果物: ' + selectedFruit);
+        });
+    </script>
+</body>
+</html>
