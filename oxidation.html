@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 
 <head>
     <meta charset="utf-8">
@@ -30,26 +30,25 @@
         </ul>
     </nav>
     <div class="peage">
-        <h1>参加比率</h1>
+        <h1>酸化比率</h1>
         <h3>銅</h3>
-        <div>
-            <label><input type="radio" name="CuO" value="Cu" checked>銅の質量から求める</label>
-            <label><input type="radio" name="CuO" value="O">酸素の質量から求める</label>
-            <label><input type="radio" name="CuO" value="CuO">酸化銅の質量から求める</label>
-        </div>
-        <div>
-            <input type="button" value="Check" id="Check" id="CuOm">
+        <select id="Cu_select">
+            <option value="Cu">銅の質量</option>
+            <option value="O">酸素の質量</option>
+            <option value="CuO" selected>酸化銅の質量</option>
+        </select>
+        <label>: <input type="number" id="mass1" min=""abel>       <div>
+            <input type="button" value="Check" id="CuOm">
 
         </div>
         <h3>マグネシウム</h3>
         <p>
         <div class="saizu">
-            <label>調べる数：<input type="number" id="inputs" value="6" min="1" style="height:1.4rem;  width: 15%;"></label>
+            <label>調べる数：<input type="number" id="inputs" value="6" " style="height:1.4rem;  width: 15%;"></label>
             <input type="button" value="調べる" id="button" style="height:1.5rem;" onclick="myfunc()">
         </div>
         </p>
         <table>
-            <caption><b>調査結果</b></caption>
             <tr>
                 <td>
                     <p>銅の質量</p>

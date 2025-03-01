@@ -1,6 +1,6 @@
 function CuOm() {
     // ラジオボタンの選択値を取得
-    let elements = document.getElementsByName("CuO");
+    let elements = document.getElementsByName("Cu_select");
     let len = elements.length;
     let checkValue = "";
 
