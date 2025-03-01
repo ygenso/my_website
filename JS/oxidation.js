@@ -9,6 +9,7 @@ function CuOm() {
             checkValue = elements.item(i).value;
         }
     }
+    alert(checkValue);
 
     // テキストボックスの値を取得
     let CuO = document.getElementById("CuO").value;
