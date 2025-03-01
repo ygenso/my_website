@@ -5,10 +5,9 @@
     <meta charset="utf-8">
     <title>酸化比率</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <script type="text/javascript" src="https://ygenso.github.io/my_website/JS/prime.js"></script>
+    <script type="text/javascript" src="https://ygenso.github.io/my_website/JS/oxidation.js"></script>
     <link rel="stylesheet" href="https://ygenso.github.io/my_website/css/style.css">
-    <link rel="stylesheet" href="https://ygenso.github.io/my_website/css/takakukei.css">
-    <link rel="stylesheet" href="https://ygenso.github.io/my_website/css/table1.css">
+    <link rel="stylesheet" href="https://ygenso.github.io/my_website/css/table2.css">
     <style>
         .dai {
             font-size: 200%;
@@ -27,16 +26,20 @@
     <nav>
         <ul class="breadcrumb">
             <li><a href="index.html">ホーム</a></li>
-            <li><a href="prime.html">酸化比率</a></li>
-        </ul>s
+            <li><a href="oxidation.html">酸化比率</a></li>
+        </ul>
     </nav>
     <div class="peage">
         <h1>参加比率</h1>
         <h3>銅</h3>
         <div>
-            <label><input type="radio" name="radio" class="radio" value="check1">銅の質量から求める</label>
-            <label><input type="radio" name="radio" class="radio" id="select2">酸素の質量から求める</label>
-            <label><input type="radio" name="radio" class="radio" value="チェック１">チェック1</label>
+            <label><input type="radio" name="CuO" value="Cu" checked>銅の質量から求める</label>
+            <label><input type="radio" name="CuO" value="O">酸素の質量から求める</label>
+            <label><input type="radio" name="CuO" value="CuO">酸化銅の質量から求める</label>
+        </div>
+        <div>
+            <input type="button" value="Check" id="Check" id="CuOm">
+
         </div>
         <h3>マグネシウム</h3>
         <p>
@@ -49,19 +52,25 @@
             <caption><b>調査結果</b></caption>
             <tr>
                 <td>
-                    <p>調べた数</p>
+                    <p>銅の質量</p>
                 </td>
                 <td>
-                    <p id="numb">0</p>
+                    <p>酸素の質量</p>
+                </td>
+                <td>
+                    <p>酸化比率</p>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <p>素因数分解</p>
+                    <p id="Cum">0</p>
                 </td>
                 <td>
-                    <p id="factorization">0</p>
+                    <p id="Om">0</p>
                 </td>
+                <rd>
+                    <p id="CuOm"></p>
+                </rd>
             </tr>
             <tr>
                 <td>
