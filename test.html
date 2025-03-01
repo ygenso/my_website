@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <title>果物セレクタ</title>
     <style>
         body {
@@ -78,3 +79,25 @@
     </script>
 </body>
 </html>
+=======
+    <title>果物セレクトボックス</title>
+    <script>
+        function showSelectedFruit() {
+            var fruit = document.getElementById("fruitSelect").value;
+            alert("選択された果物: " + fruit);
+        }
+    </script>
+</head>
+<body>
+    <h2>果物を選択してください</h2>
+    <select id="fruitSelect">
+        <option value="りんご">りんご</option>
+        <option value="バナナ">バナナ</option>
+        <option value="みかん">みかん</option>
+        <option value="ぶどう">ぶどう</option>
+        <option value="いちご">いちご</option>
+    </select>
+    <button onclick="showSelectedFruit()">表示</button>
+</body>
+</html>
+>>>>>>> 605cce124d75b42069f44eb0ea36d2ce78f20f51
