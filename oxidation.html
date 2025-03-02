@@ -36,57 +36,74 @@
         
         <h1>酸化比率</h1>
         <h3>銅</h3>
-        <select id="Cu_select">
-            <option value="Cu">銅の質量</option>
-            <option value="O">酸素の質量</option>
-            <option value="CuO" selected>酸化銅の質量</option>
+        <select id="substance1">
+            <option value="copper">銅の質量</option>
+            <option value="oxygen">酸素の質量</option>
+            <option value="copperOxide" selected>酸化銅の質量</option>
         </select>
-        <label>: <input type="number" id="mass1" min="0"></label>
+        <label>: <input type="number" id="mass1" step="0.001" min="0" value="0"></label>
         <div>
-            <input type="button" value="Check" id="CuOm" min="0">
+            <button onclick="calculate()">計算</button>
 
         </div>
-        <h3>マグネシウム</h3>
         <table>
             <tr>
                 <td>
-                    <p>銅の質量</p>
+                    <p>銅の質量(g)</p>
                 </td>
                 <td>
-                    <p>酸素の質量</p>
+                    <p>酸素の質量(g)</p>
                 </td>
                 <td>
-                    <p>酸化銅の質量</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p id="Cum">0</p>
-                </td>
-                <td>
-                    <p id="Om">0</p>
-                </td>
-                <rd>
-                    <p id="CuOm"></p>
-                </rd>
-            </tr>
-            <tr>
-                <td>
-                    <p>素数</p>
-                </td>
-                <td>
-                    <p id="YNan">Yes or No</p>
+                    <p>酸化銅の質量(g)</p>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <p>約数</p>
+                    <p id="copperResult">0</p>
                 </td>
                 <td>
-                    <p id="divisor">divisor</p>
+                    <p id="oxygenResult">0</p>
+                </td>
+                <td>
+                    <p id="copperOxideResult">0</p>
                 </td>
             </tr>
         </table>
+        <script>
+            function calculate() {
+                const substance = document.getElementById('substance1').value;
+                const inputMass = parseFloat(document.getElementById('mass1').value);
+
+                // 入力チェック
+                if (isNaN(inputMass) || inputMass <= 0) {
+                    alert('有効な質量を入力してください');
+                    return;
+                }
+
+                let oxygenMass, copperMass, copperOxideMass;
+
+                // 選択された物質に基づいて計算
+                if (substance === 'oxygen') {
+                    oxygenMass = inputMass;
+                    copperMass = inputMass * 4; // 酸素:銅 = 1:4
+                    copperOxideMass = inputMass * 5; // 酸素:酸化銅 = 1:5
+                } else if (substance === 'copper') {
+                    copperMass = inputMass;
+                    oxygenMass = inputMass;
+                    copperOxideMass = inputMass * 5 / 4; // 銅:酸化銅 = 4:5
+                } else if (substance === 'copperOxide') {
+                    copperOxideMass = inputMass;
+                    oxygenMass = inputMass / 5; // 酸化銅:酸素 = 5:1
+                    copperMass = inputMass * 4 / 5; // 酸化銅:銅 = 5:4
+                }
+
+                // 結果表示
+                document.getElementById('oxygenResult').textContent = oxygenMass.toFixed(2);
+                document.getElementById('copperResult').textContent = copperMass.toFixed(2); 
+                document.getElementById('copperOxideResult').textContent = copperOxideMass.toFixed(2);
+            }
+        </script>
 </body>
 
 </html>

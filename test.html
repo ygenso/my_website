@@ -1,80 +1,154 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>果物セレクタ</title>
-    <style>
-        body {
-            font-family: 'Helvetica Neue', Arial, sans-serif;
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f5f5f5;
-        }
-        .container {
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #4CAF50;
-            text-align: center;
-        }
-        select {
-            width: 100%;
-            padding: 10px;
-            margin: 15px 0;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            font-size: 16px;
-        }
-        button {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 15px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 16px;
-            display: block;
-            margin: 0 auto;
-        }
-        button:hover {
-            background-color: #45a049;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>酸素・銅・酸化銅の質量計算ツール</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+    h1 {
+      color: #333;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .container {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    select, input {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      width: 100%;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    .result {
+      margin-top: 20px;
+      padding: 15px;
+      background-color: #f0f8ff;
+      border-radius: 4px;
+      display: none;
+    }
+    .formula {
+      margin: 20px 0;
+      padding: 10px;
+      background-color: #f9f9f9;
+      border-left: 3px solid #4CAF50;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>果物セレクタ</h1>
-        
-        <label for="fruitSelect">果物を選択してください：</label>
-        <select id="fruitSelect">
-            <option value="リンゴ">リンゴ</option>
-            <option value="バナナ">バナナ</option>
-            <option value="オレンジ">オレンジ</option>
-            <option value="イチゴ">イチゴ</option>
-            <option value="ブドウ">ブドウ</option>
-            <option value="パイナップル">パイナップル</option>
-            <option value="マンゴー">マンゴー</option>
-            <option value="スイカ">スイカ</option>
-            <option value="メロン">メロン</option>
-            <option value="キウイ">キウイ</option>
-        </select>
-        
-        <button id="showFruit">選択した果物を表示</button>
+  <div class="container">
+    <h1>酸素・銅・酸化銅の質量計算ツール</h1>
+    
+    <div class="formula">
+      <p><strong>質量比:</strong> 酸素 : 銅 : 酸化銅 = 1 : 4 : 5</p>
+      <p>酸化銅(CuO)は銅(Cu)と酸素(O)から成り、質量保存則により酸素の質量 + 銅の質量 = 酸化銅の質量です。</p>
     </div>
+    
+    <div class="form-group">
+      <label for="substance">計算基準となる物質を選択:</label>
+      <select id="substance">
+        <option value="oxygen">酸素(O)</option>
+        <option value="copper">銅(Cu)</option>
+        <option value="copperOxide">酸化銅(CuO)</option>
+      </select>
+    </div>
+    
+    <div class="form-group">
+      <label id="massLabel" for="mass">酸素の質量 (g):</label>
+      <input type="number" id="mass" step="0.01" min="0">
+    </div>
+    
+    <button onclick="calculate()">計算する</button>
+    
+    <div class="result" id="result">
+      <h3>計算結果:</h3>
+      <p id="oxygenResult">酸素(O)の質量: <span>0</span> g</p>
+      <p id="copperResult">銅(Cu)の質量: <span>0</span> g</p>
+      <p id="copperOxideResult">酸化銅(CuO)の質量: <span>0</span> g</p>
+    </div>
+  </div>
 
-    <script>
-        document.getElementById('showFruit').addEventListener('click', function() {
-            // セレクトボックスから選択された果物を取得
-            const selectedFruit = document.getElementById('fruitSelect').value;
-            
-            // アラートで選択された果物を表示
-            alert('選択された果物: ' + selectedFruit);
-        });
-    </script>
+  <script>
+    // 選択物質によってラベルを変更
+    document.getElementById('substance').addEventListener('change', function() {
+      const substance = this.value;
+      const massLabel = document.getElementById('massLabel');
+      
+      if (substance === 'oxygen') {
+        massLabel.textContent = '酸素の質量 (g):';
+      } else if (substance === 'copper') {
+        massLabel.textContent = '銅の質量 (g):';
+      } else if (substance === 'copperOxide') {
+        massLabel.textContent = '酸化銅の質量 (g):';
+      }
+    });
+    
+    function calculate() {
+      const substance = document.getElementById('substance').value;
+      const inputMass = parseFloat(document.getElementById('mass').value);
+      
+      // 入力チェック
+      if (isNaN(inputMass) || inputMass <= 0) {
+        alert('有効な質量を入力してください');
+        return;
+      }
+      
+      let oxygenMass, copperMass, copperOxideMass;
+      
+      // 選択された物質に基づいて計算
+      if (substance === 'oxygen') {
+        oxygenMass = inputMass;
+        copperMass = inputMass * 4; // 酸素:銅 = 1:4
+        copperOxideMass = inputMass * 5; // 酸素:酸化銅 = 1:5
+      } else if (substance === 'copper') {
+        copperMass = inputMass;
+        oxygenMass = inputMass / 4; // 銅:酸素 = 4:1
+        copperOxideMass = inputMass * 5 / 4; // 銅:酸化銅 = 4:5
+      } else if (substance === 'copperOxide') {
+        copperOxideMass = inputMass;
+        oxygenMass = inputMass / 5; // 酸化銅:酸素 = 5:1
+        copperMass = inputMass * 4 / 5; // 酸化銅:銅 = 5:4
+      }
+      
+      // 結果表示
+      document.getElementById('oxygenResult').querySelector('span').textContent = oxygenMass.toFixed(2);
+      document.getElementById('copperResult').querySelector('span').textContent = copperMass.toFixed(2);
+      document.getElementById('copperOxideResult').querySelector('span').textContent = copperOxideMass.toFixed(2);
+      
+      // 結果を表示
+      document.getElementById('result').style.display = 'block';
+    }
+  </script>
 </body>
 </html>
