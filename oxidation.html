@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <script type="text/javascript" src="https://ygenso.github.io/my_website/JS/oxidation.js"></script>
     <link rel="stylesheet" href="https://ygenso.github.io/my_website/css/style.css">
-    <link rel="stylesheet" href="https://ygenso.github.io/my_website/css/table2.css">
+    <link rel="stylesheet" href="https://ygenso.github.io/my_website/css/table1.css">
     <style>
         .dai {
             font-size: 200%;
@@ -31,11 +31,10 @@
     </nav>
 
     <div class="peage">
-
-
-        
-        <h1>酸化比率</h1>
-        <h3>銅</h3>
+        <div class="dai">
+            <h1>酸化比率</h1>
+        </div>
+        <h2>銅</h2>
         <select id="substance1">
             <option value="copper">銅の質量</option>
             <option value="oxygen">酸素の質量</option>
@@ -52,18 +51,20 @@
                     <p>銅の質量(g)</p>
                 </td>
                 <td>
-                    <p>酸素の質量(g)</p>
-                </td>
-                <td>
-                    <p>酸化銅の質量(g)</p>
+                    <p id="copperResult">0</p>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <p id="copperResult">0</p>
+                    <p>酸素の質量(g)</p>
                 </td>
                 <td>
                     <p id="oxygenResult">0</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>酸化銅の質量</p>
                 </td>
                 <td>
                     <p id="copperOxideResult">0</p>
